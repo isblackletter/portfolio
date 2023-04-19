@@ -1,0 +1,722 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    background-color: black;
+}
+
+header {
+    width: 100%;
+    height: 90px;
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    border-bottom: 1px solid #ffffff56;
+    position: fixed;
+}
+
+#contenedor_logo {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#contenedor_logo img {
+    margin-left: 30px;
+}
+
+#contenedor_logo h1 {
+    margin-left: 20px;
+    color: #ffff;
+    font-size: 26px;
+}
+
+#contenedor_logo b {
+    color: blueviolet;
+}
+
+nav {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+nav a {
+    color: #ffff;
+    font-size: 16px;
+}
+
+.section {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+}
+
+.divisor {
+    width: 100%;
+    height: 149px;
+}
+
+#section__tres_p{
+    height: 70px;
+}
+.div_section_inicio {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.div_section_inicio img {
+    width: 266px;
+    border-radius: 10px;
+    border: 1px solid #fff;
+}
+
+#div_inicio_texto {
+    padding: 66px;
+}
+
+#div_inicio_texto b {
+    color: blueviolet;
+}
+
+#div_inicio_texto h2 {
+    color: #fff;
+}
+
+#div_inicio_texto p {
+    color: #fff;
+}
+
+.div_section_tecnologias {
+    width: 50%;
+    height: 100%;
+}
+
+#div_section_tecnologias_texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+}
+
+
+.tecno__logias {
+    width: 100%;
+    height: 33.33%;
+    display: flex;
+    flex-direction: row;
+}
+
+.tecnologias_info {
+    width: 33.33%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+#div_tecnologias_imagenes img {
+    width: 50px;
+
+}
+
+#div_section_tecnologias_texto h2 {
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+}
+
+#div_section_tecnologias_texto p {
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+}
+
+.tecnologias_info h3 {
+    color: #fff;
+    margin-bottom: 7px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+
+}
+
+.tecnologias_info p {
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+progress {
+    width: 77px;
+
+}
+
+progress[value] {
+    appearance: none;
+    height: 3.5px;
+}
+
+progress[value]::-webkit-progress-bar {
+    background-color: #3d3c3ca2;
+    border-radius: 10px;
+}
+
+progress[value]::-webkit-progress-value {
+    background-color: rgb(12, 66, 182);
+    border-radius: 10px;
+}
+
+.disable_progress {
+    display: none;
+}
+
+#section_tres {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+#lading {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid #ffffff8a;
+}
+
+#ecommerce {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.fila_le {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.proyectos_realizados img {
+    width: 200px;
+
+}
+
+.proyectos_realizados{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#proyecto__uno_btn,
+#proyecto__dos_btn,
+#proyecto__tres_btn,
+#proyecto__cuatro_btn,
+#proyecto__cinco_btn,
+#proyecto__seis_btn,
+#proyecto__siete_btn,
+#proyecto__ocho_btn{
+    border: 1px solid #ffff;
+    margin-top: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 12px;
+}
+
+#proyecto__uno_img img,
+#proyecto__dos_img img,
+#proyecto__tres_img img,
+#proyecto__cuatro_img img,
+#proyecto__cinco_img img,
+#proyecto__seis_img img,
+#proyecto__siete_img img,
+#proyecto__ocho_img img{
+   border-radius: 10px;
+}
+
+#section__tres{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#section__tres h2{
+    color: #fff;
+}
+
+#precios__sec{
+    width: 100%;
+    height: 444px;
+    display: flex;
+    flex-direction: row;
+}
+
+.lem{
+    width: 33.33%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 66px;
+    text-align: center;
+    border-right: 1px solid #ffffff8a;
+}
+
+.lem a{
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 10px;
+}
+
+.lem p{
+    color: #fff;
+}
+
+.lem h2{
+    color: #fff;
+}
+
+#lampara{
+    border: 1px solid #ff070700;
+}
+
+#bombillo{
+    border: 1px solid #ffffff00;
+}
+
+#luz{
+    border: 1px solid #ffffff00;
+}
+
+#hosting_sec{
+    width: 100%;
+    height: 300px;
+}
+
+#img_hosting{
+   width: 50%;
+   height: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+
+}
+
+#texto_hosting{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 50px;
+    
+ }
+ 
+#hosting_sec img{
+    width: 200px;
+}
+
+#hosting_sec p,#hosting_sec h2{
+    color: #fff;
+}
+
+#footer{
+    width: 100%;
+    height: 99px;
+    background-color: rgb(0, 0, 0);
+    border-top: 1px solid #ffffff4f;
+    display: flex;
+    flex-direction: row;
+}
+
+
+#container_one{
+    width: 10%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer img{
+    width: 50px;
+}
+
+#container_two{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+
+#whatsapp{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#facebook{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#git{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#correo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#container_two img{
+    width: 30px;
+}
+
+.button{
+    color: #fff;
+    margin-left: 10px;
+    border-bottom: 1px solid #ffffff56;
+    padding: 10px;
+}
+
+#texto_hosting b{
+    color: blueviolet;
+
+}
+
+@media (max-width:450px) {
+    body {
+        background-color: #000;
+    }
+
+    header {
+        width: 100%;
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+    }
+
+    #contenedor_logo {
+        width: 100%;
+        height: 50%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    nav {
+
+        width: 100%;
+        height: 50%;
+        display: flex;
+        flex-direction: row;
+    }
+
+    #precios,
+    #hosting {
+        display: none;
+    }
+
+    nav a {
+        font-size: 19px;
+    }
+
+    .divisor {
+        height: 160px;
+    }
+
+    .section {
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .div_section_inicio {
+        flex-direction: column;
+        width: 100%;
+        height: 50%;
+    }
+
+    .div_section_inicio img {
+        width: 190px;
+    }
+
+    #div_inicio_texto {
+        padding: 20px;
+    }
+
+    #div_inicio_texto h2 {
+        font-size: 22px;
+        text-align: center;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    #div_inicio_texto p {
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+        text-align: center;
+    }
+
+    #contenedor_logo img {
+        margin-left: 0px;
+
+
+    }
+
+    #contenedor_logo h1 {
+        margin-left: 7px;
+        color: #ffff;
+        font-size: 26px;
+        font-family: 'Roboto', sans-serif;
+
+    }
+
+    nav a {
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+    }
+
+    #section_dos {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 700px;
+    }
+
+    #div_section_tecnologias_texto {
+        width: 100%;
+        height: 30%;
+    }
+
+    #div_tecnologias_imagenes {
+        width: 100%;
+        height: 70%;
+    }
+
+    .tecno__logias {
+        width: 100%;
+        height: 33.33%;
+    }
+
+    .img_tec_tec{
+        width: 5px;
+    }
+
+    
+    
+    .tecnologias_info{
+        width: 33.33%;
+        height: 100%;
+    }
+
+    #section_tres{
+        display: flex;
+        flex-direction: column;
+    }
+     
+
+    .proyectos_realizados img {
+        width: 150px;
+    
+    }
+
+    #section_tres {
+        height: 2000px;
+        display: flex;
+        flex-direction: column;
+    }
+    #lading{
+        width: 100%;
+        height: 50%;
+        display: flex;
+        flex-direction: column;
+    }
+    #ecommerce{
+        width: 100%;
+        height: 50%;
+        flex-direction: column;
+    }
+
+    .fila_le{
+        width: 100%;
+        height: 50%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .proyectos_realizados{
+        padding: 20px;
+    }
+    #section__tres_p{
+        height: 120px;
+        margin-top: 50px;
+    }
+
+    #precios__sec{
+        width: 100%;
+        height: 1200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .lem{
+        width: 100%;
+        height: 33.33%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 15px;
+    }
+
+    #hosting_sec{
+       flex-direction: column;
+       width: 100%;
+       height: 450px;
+    }
+
+    #img_hosting{
+        width: 100%;
+        height: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #texto_hosting{
+        width: 100%;
+        height: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #footer{
+        width: 100%;
+        height: 600px;
+        display: flex;
+        flex-direction: column;
+        padding: 5px;
+
+    }
+
+    #container_one{
+        width: 100%;
+        height: 10%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+    }
+    #container_two{
+        width: 100%;
+        height: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+    }
+
+    #whatsapp{
+        width: 100%;
+        height: 25%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    #facebook{
+        width: 100%;
+        height: 25%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    #git{
+        width: 100%;
+        height: 25%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    #correo{
+        width: 100%;
+        height: 25%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #container_one img{
+        margin-left: 30px;
+    }
+ 
+.button{
+    border-bottom: 1px solid #ffffff00;
+    font-family: 'Roboto', sans-serif;
+}
+
+#texto_hosting b{
+    color: blueviolet;
+
+}
+
+    }
